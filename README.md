@@ -6,7 +6,7 @@ Data Analytics project using Python, SQL Server, and Power BI
 Dự án này xây dựng một luồng xử lý dữ liệu (Data Pipeline) và phân tích toàn diện cho Olist - một nền tảng thương mại điện tử lớn tại Brazil. 
 Mục tiêu của dự án là chuyển đổi dữ liệu thô thành các thông tin chi tiết (insights) có giá trị kinh doanh, bao quát toàn bộ quy trình từ: Trích xuất & Làm sạch dữ liệu (ETL), Thiết kế Kho dữ liệu (Data Warehouse) theo mô hình Star Schema, cho đến Trực quan hóa dữ liệu (Data Visualization).
 
-## 🛠️ Công nghệ sử dụng (Tech Stack)
+##  Công nghệ sử dụng (Tech Stack)
 * **Data Pipeline (ETL):** Python (`pandas`, `sqlalchemy`) để xử lý và nạp dữ liệu từ file CSV.
 * **Database & Data Warehouse:** SQL Server (SSMS) để lưu trữ và truy vấn.
 * **Data Visualization:** Power BI để xây dựng Dashboard tương tác.
