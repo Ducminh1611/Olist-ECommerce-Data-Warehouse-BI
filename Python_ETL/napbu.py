@@ -13,6 +13,6 @@ try:
     df = pd.read_csv(CSV_PATH)
     # Nạp vào bảng 'category_translation'
     df.to_sql('category_translation', engine, schema='staging', if_exists='replace', index=False)
-    print("✅ Đã nạp bù thành công bảng Translation!")
+    print(" Đã nạp bù thành công bảng Translation!")
 except Exception as e:
-    print(f"❌ Lỗi: {e}")
+    print(f" Lỗi: {e}")
